@@ -8,3 +8,13 @@ for (var i = 0; i < verbs.length; i++) {
         console.log(words);
     }
 }
+
+// Challenge 5
+
+var travel = ["Italy", "Brazil", "Colombia", "Aspen"];
+var place = travel.sort();
+console.log(place)
+
+for (var i = 0; i < place.length; i++) {
+    console.log(`I'm going to ${place[i]}`);
+}
