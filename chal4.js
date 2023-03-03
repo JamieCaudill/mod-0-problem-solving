@@ -12,7 +12,7 @@ for (var i = 0; i < activities.length; i++) {
     var activity = activities[i];
     // Write a conditional that checks each element for the string "ing"
     if (activity.includes("ing")) {
-        // Print the elements that include "ing"
+        // Log elements that include "ing"
         console.log(activity);
     }
 }

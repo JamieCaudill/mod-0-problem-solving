@@ -9,6 +9,9 @@ var travel = destination.sort();
 
 // Use a for loop to iterate through each element in the array.
 for (var i = 0; i < travel.length; i++) {
-    // Print a statement that interpolates each element.
-    console.log(`I'm going to ${travel[i]}`);
+    // Log a statement that interpolates each element.
+    console.log(`I've been to ${travel[i]}`);
 }
+
+// Log the lyrics of a great song.
+console.log ("I've been everywhere man");
